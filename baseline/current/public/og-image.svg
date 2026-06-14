@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1628"/>
+      <stop offset="0.5" stop-color="#0F1E36"/>
+      <stop offset="1" stop-color="#051122"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="900" cy="200" r="500">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="og-glow2" cx="200" cy="500" r="400">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect width="1200" height="630" fill="url(#og-glow)"/>
+  <rect width="1200" height="630" fill="url(#og-glow2)"/>
+  <!-- depth rings -->
+  <circle cx="900" cy="315" r="280" stroke="#06B6D4" stroke-opacity="0.1" fill="none"/>
+  <circle cx="900" cy="315" r="200" stroke="#06B6D4" stroke-opacity="0.15" fill="none"/>
+  <circle cx="900" cy="315" r="120" stroke="#06B6D4" stroke-opacity="0.2" fill="none"/>
+  <!-- N mark big -->
+  <g stroke="#06B6D4" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(820 195)">
+    <line x1="40" y1="220" x2="40" y2="40"/>
+    <line x1="40" y1="40" x2="180" y2="220"/>
+    <line x1="180" y1="40" x2="180" y2="220"/>
+  </g>
+  <circle cx="860" cy="225" r="9" fill="#F59E0B"/>
+  <!-- text -->
+  <text x="80" y="260" font-family="Fraunces, Georgia, serif" font-size="92" font-weight="600" fill="#FDFCF8" letter-spacing="-3">Nemo Agent</text>
+  <text x="80" y="320" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="500" fill="#06B6D4" letter-spacing="0.5">ИИ-агент в Telegram, который</text>
+  <text x="80" y="360" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="500" fill="#FDFCF8" letter-spacing="0.5">работает на вашем VPS</text>
+  <text x="80" y="540" font-family="JetBrains Mono, monospace" font-size="20" fill="#9CA3AF" letter-spacing="2">NEMOAGENT.RU — ГЛУБИНА И НАВИГАЦИЯ</text>
+</svg>

@@ -1,0 +1,42 @@
+# Nemo Agent
+
+> Подписочный ИИ-агент на базе Hermes Agent, работает на вашем VPS, общается через Telegram. Решает задачи конкретной ниши бизнеса: продажи, поддержка, маркетинг, HR, аналитика.
+
+## О продукте
+
+Nemo Agent — это AI-ассистент, который:
+- Работает на изолированном VPS, принадлежащем клиенту
+- Общается через Telegram-бот, Web-интерфейс, API
+- Настраивается под конкретную нишу через диалог
+- Учится на данных клиента (RAG, Qdrant)
+- Устанавливает скиллы, плагины, MCP одной командой
+
+## Тарифы
+
+- Free: 0 ₽/мес — 1 агент, 100 запросов
+- Start: 2 990 ₽/мес — 1 агент, 5 000 запросов
+- Pro: 5 990 ₽/мес — 3 агента, 20 000 запросов
+- Business: 12 990 ₽/мес — 10 агентов, 100 000 запросов
+- Enterprise: кастом — безлимит, on-premise, 152-ФЗ
+
+## Технологический стек
+
+- LLM: GigaChat-2-Max, YandexGPT, Hermes Agent (MiniMax-M3)
+- Backend: Python 3.12 + aiogram 3.x + FastAPI
+- Vector DB: Qdrant
+- DB: Supabase (PostgreSQL)
+- Hosting лендинга: Layero
+- Hosting VPS: Timeweb Cloud / Hetzner / Aeza / Oracle Cloud
+
+## Контакты
+
+- Сайт: https://nemoagent.ru
+- Telegram-бот: https://t.me/nemo_agent_bot
+- Email: hello@nemoagent.ru
+- Канал: https://t.me/nemo_agent_news
+
+## Документация
+
+- Библиотека скиллов: https://nemoagent.ru/#skills
+- Статьи: https://nemoagent.ru/articles
+- Тарифы: https://nemoagent.ru/pricing
